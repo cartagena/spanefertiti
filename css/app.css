@@ -1,0 +1,58 @@
+body {
+  background-color: lightGray;
+}
+h1 {
+  margin-bottom: 0.5em;
+}
+
+.hero-unit {
+  background-color: rgba(0,0,0,0);
+}
+
+.container .liquid {
+  width:104%;
+  padding-left:4%;
+  margin-left: -4%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.main.liquid {
+  border-radius: 6px;
+}
+
+.footer.liquid {
+  border-radius: 6px 6px 0 0;
+}
+
+.hero-unit_ {
+  margin-top: 20px;
+}
+
+#home .tratamentos-esteticos,
+#home .rituais-spa {
+  padding-top: 200px;
+  border-radius: 6px;
+  background-color: gray;
+}
+#home h1 {
+  text-align:center;
+}
+
+.footer {
+  margin-top: 60px;
+}
+footer {
+  margin-top: 20px;
+}
+
+.background {
+  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/background.jpg");
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -999;
+}
