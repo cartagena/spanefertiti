@@ -8,6 +8,14 @@ h1 {
 .hero-unit {
   background-color: rgba(0,0,0,0);
 }
+.hero-unit h1 {
+  width: 590px;
+  height: 295px;
+  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/logo.png");
+}
+.hero-unit h1 span {
+  display: none;
+}
 
 .container .liquid {
   width:104%;
@@ -26,18 +34,14 @@ h1 {
   border-radius: 6px 6px 0 0;
 }
 
-.hero-unit_ {
-  margin-top: 20px;
+#home h1 {
+  text-align:center;
 }
-
 #home .tratamentos-esteticos,
 #home .rituais-spa {
   padding-top: 200px;
   border-radius: 6px;
   background-color: gray;
-}
-#home h1 {
-  text-align:center;
 }
 
 hr.footer {
