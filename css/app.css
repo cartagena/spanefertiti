@@ -8,12 +8,12 @@ h1 {
 .hero-unit {
   background-color: rgba(0,0,0,0);
 }
-.hero-unit h1 {
-  width: 590px;
-  height: 295px;
+h1#logo {
+  width: 170px;
+  height: 140px;
   background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/logo.png");
 }
-.hero-unit h1 span {
+h1#logo span {
   display: none;
 }
 
@@ -23,9 +23,15 @@ h1 {
   margin-left: -4%;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   background-color: rgba(255,255,255,0.5);
 }
 
+.main {
+  position:relative;
+  padding-bottom: 60px !important;
+}
 .main.liquid {
   border-radius: 6px;
 }
@@ -34,21 +40,36 @@ h1 {
   border-radius: 6px 6px 0 0;
 }
 
-#home h1 {
-  text-align:center;
-}
-#home .tratamentos-esteticos,
-#home .rituais-spa {
-  padding-top: 200px;
+#home li {
+  position:relative;
+  height: 202px;
   border-radius: 6px;
   background-color: gray;
 }
-
-hr.footer {
-  margin-top: 100px;
+#home h1 {
+  width:100%;
+  position:absolute;
+  bottom:10px;
+  text-align:center;
+  text-shadow: 0 1px 10px #fff;
 }
+#home .tratamentos-esteticos {
+  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/trat-laser-diodo.jpg");
+}
+#home .rituais-spa {
+  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/trat-anti-acne.jpg");
+}
+#home .dermatologia {
+  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/trat-limpeza-hidra-pele.jpg");
+}
+#home .outro {
+  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/trat-intra-mesoterapia.jpg");
+}
+
 footer {
-  margin-top: 40px;
+  width: 570px;
+  position: absolute;
+  bottom: 0;
 }
 
 .background {

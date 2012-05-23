@@ -38,48 +38,42 @@
 
   <body class="main-bg dark-bg">
 
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <ul class="nav">
-            <li class="home active"><a href="#home" data-toggle="pill"><span>Spa Nerfertiti</span></a></li>
-            <li class="quemsomos"><a href="#quemsomos" data-toggle="pill"><span>Quem Somos</span></a></li>
-            <li class="localizacao"><a href="#localizacao" data-toggle="pill"><span>Localização</span></a></li>
-            <li class="estrutura"><a href="#estrutura" data-toggle="pill"><span>Estrutura</span></a></li>
-            <li class="tratamentos-esteticos"><a href="#tratamentos-esteticos" data-toggle="pill"><span>Tratamentos Estéticos</span></a></li>
-            <li class="rituais-spa"><a href="#rituais-spa" data-toggle="pill"><span>Rituais Spa</span></a></li>
-            <li class="personal-spa"><a href="#personal-spa" data-toggle="pill"><span>Personal Spa</span></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
     <div class="container">
       <div class="main liquid">
         <div class="row">
-          <div class="span8">
+          <div class="span2">
+            <h1 id="logo"><span>Spa Nefertiti</span></h1>
 
-            <div class="hero-unit_">
-              <div class="hero-unit">
-                <h1><span>Spa Nefertiti</span></h1>
-              </div>
-            </div>
+            <ul class="nav nav-pills nav-stacked">
+              <li class="home active"><a href="#home" data-toggle="pill"><span>Spa Nerfertiti</span></a></li>
+              <li class="quemsomos"><a href="#quemsomos" data-toggle="pill"><span>Quem Somos</span></a></li>
+              <li class="localizacao"><a href="#localizacao" data-toggle="pill"><span>Localização</span></a></li>
+              <li class="estrutura"><a href="#estrutura" data-toggle="pill"><span>Estrutura</span></a></li>
+              <li class="tratamentos-esteticos"><a href="#tratamentos-esteticos" data-toggle="pill"><span>Tratamentos Estéticos</span></a></li>
+              <li class="rituais-spa"><a href="#rituais-spa" data-toggle="pill"><span>Rituais Spa</span></a></li>
+              <li class="personal-spa"><a href="#personal-spa" data-toggle="pill"><span>Personal Spa</span></a></li>
+            </ul>
 
+          </div>
+          <div class="span6">
             <div class="tab-content">
 
               <div id="home" class="tab-pane fade active in">
                 <article>
-                  <div class="row">
-                    <div class="span4 tratamentos-esteticos">
+                  <ul class="thumbnails">
+                    <li class="span3 tratamentos-esteticos">
                       <h1>Tratamentos Estéticos</h1>
-                      <p></p>
-                    </div>
-
-                    <div class="span4 rituais-spa">
+                    </li>
+                    <li class="span3 rituais-spa">
                       <h1>Rituais spa</h1>
-                      <p></p>
-                    </div>
-                  </div>
+                    </li>
+                    <li class="span3 dermatologia">
+                      <h1>Dermatologia</h1>
+                    </li>
+                    <li class="span3 outro">
+                      <h1>Outra coisa</h1>
+                    </li>
+                  </ul>
                 </article>
               </div>
 
@@ -94,16 +88,10 @@
               <div id="localizacao" class="tab-pane fade">
                 <article>
                   <h1>Localização</h1>
-                  <div class="row">
-                    <div class="span5">
-                      <iframe width="470" height="287" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=rua+conde+afonso+celso,505+-+ribeirao+preto&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=48.641855,103.798828&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Conde+Afonso+Celso,+505+-+Subsetor+Sul+1,+Ribeir%C3%A3o+Preto+-+S%C3%A3o+Paulo,+14025-040,+Brazil&amp;t=m&amp;ll=-21.185452,-47.821083&amp;spn=0.022969,0.040255&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-                    </div>
-                    <div class="span3">
-                      <p>Rua conde afonso celso, 505<br/>
-                         Boulevard - Ribeirão Preto
-                      </p>
-                    </div>
-                  </div>
+                  <iframe width="470" height="287" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=rua+conde+afonso+celso,505+-+ribeirao+preto&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=48.641855,103.798828&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Conde+Afonso+Celso,+505+-+Subsetor+Sul+1,+Ribeir%C3%A3o+Preto+-+S%C3%A3o+Paulo,+14025-040,+Brazil&amp;t=m&amp;ll=-21.185452,-47.821083&amp;spn=0.022969,0.040255&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                  <p>Rua conde afonso celso, 505<br/>
+                     Boulevard - Ribeirão Preto
+                  </p>
                 </article>
               </div>
 
@@ -117,7 +105,7 @@
               <div id="tratamentos-esteticos" class="tab-pane fade">
                 <article>
                   <h1>Tratamentos Estéticos</h1>
-                  <div class="tabbable tabs-left">
+                  <div class="tabbable">
                     <ul class="nav nav-tabs">
                       <li class="active"><a href="#tratamento-corporal" data-toggle="tab">Tratamento Corporal</a></li>
                       <li><a href="#tratamento-facial" data-toggle="tab">Tratamento Facial</a></li>
@@ -126,29 +114,25 @@
                     </ul>
                     <div class="tab-content">
                       <div id="tratamento-corporal" class="tab-pane active fade in">
-                        <div class="span3">
+                        <div class="row"><div class="span3">
                           <ul class="thumbnails">
                             <li class="span3">
-                              <img src="img/trat-lipomassagem.jpg"/>
                               <h2>Lipomassagem</h2>
                               <p>É conhecida também como power massagem. É uma técnica de massagem que, através de um ritmo intenso e deslizamentos profundos, consegue reduzir medidas em poucas sessões. Realiza a quebra de gordura e ameniza o problema da celulite. Tem também um efeito modelador. Ideal para quem já está habituada à rotina de tratamentos estéticos.</p>
                             </li>
 
                             <li class="span3">
-                              <img src="img/trat-carboxiterapia.jpg"/>
                               <h2>Carboxiterapia</h2>
                               <p>Técnica simples e comprovada, utilizada para o tratamento da flacidez cutânea, celulite, estrias, gorduras localizada, cicatrizes e como tratamento complementar à lipoaspiração.</p>
                             </li>
 
                             <li class="span3">
-                              <img src="img/trat-infra-red.jpg"/>
                               <h2>Infrared</h2>
                               <p>Aparelho com ondas do Infravermelho que faz ocorrer uma ressonância com as moléculas de água provocando uma intensa vibração, ionizando e ativando essas moléculas e as nossas células.</p>
                               <p>Como conseqüência ocorre a estimulação do metabolismo da célula, a eliminação de gorduras em excesso devido ao aquecimento molecular e a melhora da drenagem linfática pelo aumento da vaso dilatação.</p>
                             </li>
 
                             <li class="span3">
-                              <img src="img/trat-laser-diodo.jpg"/>
                               <h2>Laser diodo</h2>
                               <p>As técnicas de depilação a laser têm experimentado um grande desenvolvimento e cada vez é maior o número de homens e mulheres que se submetem a elas. Assim, a depilação a laser é atualmente um dos tratamentos estéticos estrela.</p>
                               <p>O Laser Diodo, pode ser utilizado com total segurança, por pessoas de todos os tipos de pele: branca, negra, amarela.</p>
@@ -158,39 +142,34 @@
                         <div class="span3">
                           <ul class="thumbnails">
                             <li class="span3">
-                              <img src="img/trat-manthus.jpg"/>
                               <h2>Manthus</h2>
                               <p>Trabalha com a sinergia de duas funções: ultrassom e estímulos elétricos através da eletroporação. Diferente da Corrente Russa, que tonifica os músculos, o Manthus age melhorando o aspecto de ondulação da pele. Ideal para diminuir a gordura localizada e a celulite.</p>
                             </li>
 
                             <li class="span3">
-                              <img src="img/trat-corrente-russa.jpg"/>
                               <h2>Corrente russa</h2>
                               <p>Equipamento de estimulação elétrica que estimula as fibras brancas e vermelhas com o objetivo de reduzir a flacidez e tonificar os músculos.</p>
                             </li>
 
                             <li class="span3">
-                              <img src="img/trat-intra-mesoterapia.jpg"/>
                               <h2>Intradermoterapia ou Mesoterapia</h2>
                               <p>Uma técnica dentro da medicina estética que consiste na injeção intradérmica de substâncias que irão promover o tratamento. Nessa técnica, usa-se uma agulha muito fina para a injeção de drogas na camada dérmica ou hipodérmica. </p>
                               <p>As drogas irão promover a “queima” de gordura localizada, drenagem linfática, estimulação de células fibroblásticas para a produção de fibras colágenas e elásticas, e até estimulação do couro cabeludo para crescimento capilar. Dessa forma, é usada como técnica de tratamento para gordura localizada, celulite,flacidez de pele, estrias, calvície. </p>
                               <p>As sessões tem intervalos semanais, devido a dose máxima de alguns medicamentos. Por isso, é um tratamento exclusivamente médico devido aos riscos de choque anafilático e edema de glote. O n° de sessões varia de 10 a 20 sessões dependendo da área a ser tratada e perfil de cada paciente.</p>
                             </li>
                           </ul>
-                        </div>
+                        </div></div>
                       </div>
 
                       <div id="tratamento-facial" class="tab-pane fade">
-                        <div class="span3">
+                        <div class="row"><div class="span3">
                           <ul class="thumbnails">
                             <li class="span3">
-                              <img src="img/trat-limpeza-hidra-pele.jpg"/>
                               <h2>Limpeza e hidratação da pele</h2>
                               <p>Limpa a pele profundamente, liberando-a de impurezas que impedem o bom funcionamento do tecido cutâneo.</p>
                             </li>
 
                             <li class="span3">
-                              <img src="img/trat-refine.jpg"/>
                               <h2>Refine</h2>
                               <p>Sistema inovador de tratamento dermoabrasivo com peeling de cristais. Promove a renovação celular e revitalização da pele. Nutre e hidrata, é tensor e antioxidante.</p>
                             </li>
@@ -199,12 +178,11 @@
                         <div class="span3">
                           <ul class="thumbnails">
                             <li class="span3">
-                              <img src="img/trat-anti-acne.jpg"/>
                               <h2>Anti-acne</h2>
                               <p>Atua nas três fases da formação da acne. Equilibra a secreção e higieniza, atua diminuindo a produção sebácea. Agentes cicatrizantes, calmantes e antiinflamatórios.</p>
                             </li>
                           </ul>
-                        </div>
+                        </div></div>
                       </div>
 
                       <div id="dermatologia" class="tab-pane fade">
@@ -215,16 +193,14 @@
                       </div>
 
                       <div id="saude-e-bem-estar" class="tab-pane fade">
-                        <div class="span3">
+                        <div class="row"><div class="span3">
                           <ul class="thumbnails">
                             <li class="span3">
-                              <img src="img/trat-acupuntura.jpg"/>
                               <h2>Acupuntura auricular</h2>
                               <p>São colocados cristais  em pontos estratégicos no pavilhão auricular,para tratamento da ansiedade e fome.</p>
                             </li>
 
                             <li class="span3">
-                              <img src="img/trat-circuito-aerobico.jpg"/>
                               <h2>Circuito Aeróbico</h2>
                               <p>Voltado para o condicionamento físico,   afastado o individuo do sedentarismo. São realizados exercícios aeróbicos (corrida, pedalada) e anaeróbicos (levantamento de pesos) alternados com  alongamento,bicicleta e esteira.</p>
                             </li>
@@ -233,18 +209,16 @@
                         <div class="span3">
                           <ul class="thumbnails">
                             <li class="span3">
-                              <img src="img/trat-pilates.jpg"/>
                               <h2>Pilates</h2>
                               <p>Planos especiais de Pilates para todas as idades.</p>
                             </li>
 
                             <li class="span3">
-                              <img src="img/trat-reeducacao-alimentar.jpg"/>
                               <h2>Reeducação Alimentar</h2>
                               <p>A mudança nos hábitos alimentares é essencial para saúde, bem estar e beleza. Com uma boa alimentação é possível perder peso e reduzir a gordura localizada. O programa de reeducação é personalizado e visa à adoção de hábitos mais saudáveis. A alimentação ideal deve fornecer os nutrientes necessários para o bom estado nutricional.  A gordura normalmente está associada ao excesso de peso, mas muitas pessoas magras podem ter excesso de gordura em  sua composição corporal.</p>
                             </li>
                           </ul>
-                        </div>
+                        </div></div>
                       </div>
                     </div>
                   </div>
@@ -254,7 +228,7 @@
               <div id="rituais-spa" class="tab-pane fade">
                 <article>
                   <h1>Rituais de SPA</h1>
-                  <div class="tabbable tabs-left">
+                  <div class="tabbable">
                     <ul class="nav nav-tabs">
                       <li class="active"><a href="#rituais-corpo" data-toggle="tab">Rituais do Corpo</a></li>
                       <li><a href="#rituais-banho" data-toggle="tab">Rituais do Banho</a></li>
@@ -263,33 +237,59 @@
                     </ul>
                     <div class="tab-content">
                       <div id="rituais-corpo" class="tab-pane active fade in">
-                        <h2>Fangotermal</h2>
-                        <p>Tratamento realizado com argila verde. Auxilia no combate à celulite e melhora o tônus da pele.</p>
+                        <div class="row">
+                          <div class="span3"><ul class="thumbnails">
+                            <li class="span3">
+                              <h2>Fangotermal</h2>
+                              <p>Tratamento realizado com argila verde. Auxilia no combate à celulite e melhora o tônus da pele.</p>
+                            </li>
 
-                        <h2>Hidratação corporal profunda</h2>
-                        <p>Mantém a umidade da pele, melhora o tônus e a vitalidade, aumenta a elasticidade e evita a degeneração cutânea.</p>
+                            <li class="span3">
+                              <h2>Gommage</h2>
+                              <p>Cristais de quartzo e óleos vegetais aromatizados. Amacia a pele, evita pelos encravados e prolonga o bronzeamento.</p>
+                            </li>
+                          </ul></div>
+                          <div class="span3"><ul class="thumbnails">
+                            <li class="span3">
+                              <h2>Hidratação corporal profunda</h2>
+                              <p>Mantém a umidade da pele, melhora o tônus e a vitalidade, aumenta a elasticidade e evita a degeneração cutânea.</p>
+                            </li>
 
-                        <h2>Gommage</h2>
-                        <p>Cristais de quartzo e óleos vegetais aromatizados. Amacia a pele, evita pelos encravados e prolonga o bronzeamento.</p>
-
-                        <h2>Banho de lua</h2>
-                        <p>Clareamento dos pelos do corpo, esfoliação e hidratação, deixa a pele macia e livre de células mortas.</p>
+                            <li class="span3">
+                              <h2>Banho de lua</h2>
+                              <p>Clareamento dos pelos do corpo, esfoliação e hidratação, deixa a pele macia e livre de células mortas.</p>
+                            </li>
+                          </ul></div>
+                        </div>
                       </div>
 
                       <div id="rituais-banho" class="tab-pane fade">
                         <p>Os banhos em ofurô têm origem milenar oriental. Proporcionam momentos de paz e eliminam a tensão.</p>
                         <p>* Oferecemos: biquíni descartável, roupão, chinelo e toalha.</p>
-                        <h2>Banho especial</h2>
-                        <p>Sais de banho, óleo essencial de ylang ylang e pétalas de rosas. Efeito estimulante e energizante. Massagem relaxante nos pés e nas costas</p>
+                        <div class="row">
+                          <div class="span3"><ul class="thumbnails">
+                            <li class="span3">
+                              <h2>Banho especial</h2>
+                              <p>Sais de banho, óleo essencial de ylang ylang e pétalas de rosas. Efeito estimulante e energizante. Massagem relaxante nos pés e nas costas</p>
+                            </li>
 
-                        <h2>Banho de uva</h2>
-                        <p>Proporciona uma ação revigorante, melhora o humor e previne o envelhecimento precoce. Sais de banho, extrato de uva, óleo essencial de hortelã pimenta e pétalas de rosas</p>
+                            <li class="span3">
+                              <h2>Banho nefertiti</h2>
+                              <p>Utiliza o poder nutritivo e hidratante do leite. Óleos essenciais de manjerona e lavanda. Indicado para hidratar a pele, diminuir a ansiedade e o estresse</p>
+                            </li>
+                          </ul></div>
+                          <div class="span3"><ul class="thumbnails">
+                            <li class="span3">
+                              <h2>Banho de uva</h2>
+                              <p>Proporciona uma ação revigorante, melhora o humor e previne o envelhecimento precoce. Sais de banho, extrato de uva, óleo essencial de hortelã pimenta e pétalas de rosas</p>
+                            </li>
 
-                        <h2>Banho nefertiti</h2>
-                        <p>Utiliza o poder nutritivo e hidratante do leite. Óleos essenciais de manjerona e lavanda. Indicado para hidratar a pele, diminuir a ansiedade e o estresse</p>
-
-                        <h2>Banho de chocolate</h2>
-                        <p>Esfoliação corporal com esfoliante à base de cacau, máscara de chocolate por todo o corpo, banho de ofurô com sais de banho e chocolate. Massagem com óleo hidratante de cacau</p>
+                            <li class="span3">
+                              <h2>Banho de chocolate</h2>
+                              <p>Esfoliação corporal com esfoliante à base de cacau, máscara de chocolate por todo o corpo, banho de ofurô com sais de banho e chocolate. Massagem com óleo hidratante de cacau</p>
+                            </li>
+                          </ul></div>
+                        </div>
                       </div>
 
                       <div id="rituais-massagem" class="tab-pane fade">
@@ -451,8 +451,8 @@
 
             </div> <!-- /tab-content -->
 
-            <hr class="footer">
             <footer>
+              <hr class="footer">
               <p>&copy; Spa Nefertiti 2012</p>
             </footer>
 
