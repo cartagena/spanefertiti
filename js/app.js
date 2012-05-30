@@ -11,5 +11,32 @@
 ;
 (function( $, undefined ) {
 
+  function App() {
+    this._run();
+  };
+
+  App.prototype = {
+    _run: function() {
+      this._bind();
+    },
+
+    _bind: function() {
+      $("#logo").click(function() {
+          $(".main .nav .home a").click();
+      });
+      $("#home")
+        .on("click", "li", function(ev) {
+          var $target = $(ev.target),
+              source = $target.attr("class")
+                .replace(/span3/g, "")
+                .replace(/ /g, "");
+          $(".main .nav ." + source + " a").click();
+        });
+    }
+  };
+
+  $(function() {
+    new App();
+  });
 })(jQuery);
 
