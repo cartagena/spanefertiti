@@ -11,7 +11,7 @@ h1 {
 h1#logo {
   width: 170px;
   height: 140px;
-  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/logo.png");
+  background-image: url("../img/logo.png");
   cursor: pointer;
 }
 h1#logo span {
@@ -56,16 +56,16 @@ h1#logo span {
   text-shadow: 0 1px 10px #fff;
 }
 #home .tratamentos-esteticos {
-  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/shutterstock_55364368_t.jpg");
+  background-image: url("../img/shutterstock_55364368_t.jpg");
 }
 #home .rituais-spa {
-  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/shutterstock_55319875b_t.jpg");
+  background-image: url("../img/shutterstock_55319875b_t.jpg");
 }
 #home .dermatologia {
-  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/shutterstock_33598795_t.jpg");
+  background-image: url("../img/shutterstock_33598795_t.jpg");
 }
 #home .pacotes {
-  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/shutterstock_73029259_t.jpg");
+  background-image: url("../img/shutterstock_73029259_t.jpg");
 }
 
 [id$="pic"] {
@@ -73,16 +73,16 @@ h1#logo span {
   height: 570px;
 }
 #clinica-pic {
-  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/tricologia.png");
+  background-image: url("../img/tricologia.png");
 }
 #tratamento-pic {
-  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/shutterstock_12586174b.jpg");
+  background-image: url("../img/shutterstock_12586174b.jpg");
 }
 #rituais-pic {
-  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/shutterstock_56302477.jpg");
+  background-image: url("../img/shutterstock_56302477.jpg");
 }
 #pacotes-pic {
-  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/shutterstock_73029259.jpg");
+  background-image: url("../img/shutterstock_73029259.jpg");
 }
 
 footer {
@@ -92,7 +92,7 @@ footer {
 }
 
 .background {
-  background-image: url("file:///home/xavier/www/spanefertiti.com.br/img/background.jpg");
+  background-image: url("../img/background.jpg");
   height: 100%;
   left: 0;
   position: fixed;
