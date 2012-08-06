@@ -32,6 +32,8 @@
                 .replace(/ /g, "");
           $(".main .nav ." + source + " a").click();
         });
+
+      $("#album").photoviewer();
     }
   };
 
