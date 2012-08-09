@@ -22,8 +22,9 @@
 
     _bind: function() {
       $("#logo").click(function() {
-          $(".main .nav .home a").click();
+        $(".main .nav .home a").click();
       });
+
       $("#home")
         .on("click", "li", function(ev) {
           var $target = $(ev.target),
@@ -33,7 +34,16 @@
           $(".main .nav ." + source + " a").click();
         });
 
+
       $("#album").photoviewer();
+
+      $("li.fotos a").click(function() {
+        $('img[data-original]').each(function() {
+          $(this)
+            .attr("src", $(this).data("original"))
+            .removeAttr("data-original");
+        })
+      });
     }
   };
 
@@ -41,4 +51,5 @@
     new App();
   });
 })(jQuery);
+
 
