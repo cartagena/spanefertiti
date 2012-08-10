@@ -18,6 +18,16 @@
   App.prototype = {
     _run: function() {
       this._bind();
+
+      $("#album")
+        .bind("photoviewerdisplay", function(ev, data) {
+          var next = $(data.anchor).next(),
+              prev = $(data.anchor).prev();
+
+          next.length && next.attr("href") ? $.imgpreload(next.attr("href")) : null;
+          prev.length && prev.attr("href") ? $.imgpreload(prev.attr("href")) : null;
+        })
+        .photoviewer();
     },
 
     _bind: function() {
@@ -33,7 +43,6 @@
                 .replace(/ /g, "");
           $(".main .nav ." + source + " a").click();
         });
-
 
       $("#album").photoviewer();
 
